@@ -1,1 +1,1 @@
-# CSCI4616_Project
+# Intro to VR collaborative project
