@@ -3,8 +3,57 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
+public class FallenChairScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        //FallenChairScript fallenChairObj = MonoBehaviour.CreateInstance<FallenChairScript>();
+        //fallenChairObj.OnGUI();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
+
+public class MouseOverWindowExample : EditorWindow
+{
+    string mouseOver = "Nothing...";
+
+    [MenuItem("Examples/mouseOver")]
+    static void Init()
+    {
+        GetWindow<MouseOverWindowExample>("mouseOver");
+    }
+
+    void OnGUI()
+    {
+        GUILayout.Label("Mouse over:\n" + mouseOver);
+        if (GUILayout.Button("Close"))
+        {
+            this.Close();
+        }
+
+        mouseOver = EditorWindow.mouseOverWindow ?
+            EditorWindow.mouseOverWindow.ToString() : "Nothing...";
+    }
+
+    void OnInspectorUpdate()
+    {
+        if (EditorWindow.mouseOverWindow)
+        {
+            EditorWindow.mouseOverWindow.Focus();
+        }
+
+        this.Repaint();
+    }
+}
+
 //this is the code for the simple editor window which launches the popup:
-public class FallenChairScript : EditorWindow
+/*public class FallenChairScript : EditorWindow
 {
     //used code from website: https://docs.unity3d.com/ScriptReference/PopupWindow.html 
     // Add menu item
@@ -58,4 +107,5 @@ public class Popup: PopupWindowContent
     {
         Debug.Log("Popup closed: " + this);
     }
-}
+}*/
+
