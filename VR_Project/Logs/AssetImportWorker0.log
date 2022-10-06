@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49727
+49921
 Successfully changed project path to: /Users/lukepan/Documents/vr/CSCI4616_Project/VR_Project
 /Users/lukepan/Documents/vr/CSCI4616_Project/VR_Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/lukepan/Documents/vr/CSCI4616_Proje
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 179.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 210.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,96 +69,101 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56415
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001913 seconds.
+Registered in 0.005168 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
+2022-10-05 19:21:19.560 Unity[2415:70160] [XcodeApplications] Failed to read NSDictionary from path P
+"/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 170.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 225.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
+- Completed reload, in  1.744 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1395ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (1745ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1109ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1287ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (624ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (821ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (120ms)
+				InitializePlatformSupportModulesInManaged (134ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (170ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				RefreshPlugins (225ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004497 seconds.
+Registered in 0.024102 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/lukepan/Documents/vr/CSCI4616_Project/VR_Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/lukepan/Documents/vr/CSCI4616_Project/VR_Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for iOS target not found
+2022-10-05 19:21:26.130 Unity[2415:70160] [XcodeApplications] Failed to read NSDictionary from path P
+"/Contents/Info.plist
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.349 seconds
+- Completed reload, in  2.935 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2350ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (2937ms)
+		BeginReloadAssembly (229ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1925ms)
-			LoadAssemblies (185ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (2376ms)
+			LoadAssemblies (251ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (602ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (885ms)
+			SetupTypeCache (795ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (168ms)
+			SetupLoadedEditorAssemblies (1007ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (80ms)
+				InitializePlatformSupportModulesInManaged (87ms)
 				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (596ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (248ms)
+				ProcessInitializeOnLoadAttributes (604ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3384 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (462.7 KB). Loaded Objects now: 3844.
-Memory consumption went from 231.3 MB to 230.9 MB.
-Total: 7.546562 ms (FindLiveObjects: 0.386091 ms CreateObjectMapping: 0.276721 ms MarkObjects: 5.995171 ms  DeleteObjects: 0.885894 ms)
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (508.6 KB). Loaded Objects now: 3933.
+Memory consumption went from 237.3 MB to 236.8 MB.
+Total: 16.389972 ms (FindLiveObjects: 0.515099 ms CreateObjectMapping: 0.737346 ms MarkObjects: 14.031278 ms  DeleteObjects: 1.102657 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,13 +177,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3115.327026 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(fd4b369c76c8d4c5389b08054d609aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(fd4b369c76c8d4c5389b08054d609aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbe797b14fb8a9210b3dacafef0cf2f') in 0.022225 seconds 
+  Time since last request: 5386.828292 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef
+  artifactKey: Guid(2f52f0b6cfdc94464bcc067a11c8e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime/Google.XR.Cardboard.asmdef using Guid(2f52f0b6cfdc94464bcc067a11c8e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f12bebe2f19d25d1479445bbd3173c2') in 3.294274 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 216.319794 seconds.
-  path: Assets/3D Models/Props/Ammunition/Bullet 7.62
-  artifactKey: Guid(8998d8468718be7499e3117a11e6e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Models/Props/Ammunition/Bullet 7.62 using Guid(8998d8468718be7499e3117a11e6e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f34eab117c77f9092cd4039f59798c') in 0.007690 seconds 
+  Time since last request: 0.000161 seconds.
+  path: Packages/com.google.xr.cardboard/Runtime
+  artifactKey: Guid(7b3736418a3da458ebb6d7f4bb77ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.google.xr.cardboard/Runtime using Guid(7b3736418a3da458ebb6d7f4bb77ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8402d7d33f89cb15f0b0dd888eb53d83') in 0.001594 seconds 
