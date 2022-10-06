@@ -355,6 +355,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Breakable Windows/Scripts/BreakableWindow.cs"
 "Assets/FallenChairScript.cs"
+"Assets/Scripts/BasicCardboardMovement.cs"
 -langversion:9.0
 
 /deterministic
