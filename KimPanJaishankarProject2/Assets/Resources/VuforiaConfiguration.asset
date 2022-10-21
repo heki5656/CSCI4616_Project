@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AXdMyl3/////AAABmYXoihwqDEBctEwnGapeUllOxoxfPhMDQhXBmriZoboGsMiKRMzv8Q+3bD9VS4rPL8DlkH6rprMowomOznu+CEFyyffqafEuInSTDkSiAOiuGBS175SOji9BcBvorvK01/yJQSaZzyGRXReXC2RamdBQs7aE48dWfzv2fwJ3OAESWogLSkOA7QHQZHvNucCtgExRFSowWKKM6XN7JP2gke0RoxAKE1Y9FNauQSuxN47ml1idw6ycwYPRzNeRtfgYiTI3KNoe44d/PmdT7AlJrtSU9Hyb6Z9dhbU72eqhO7wROqIifvgUMDTWYOTU11NVtjIylvwIDe6hPIkE75MK+BC5ns2iAkKl8+Mb4334ll3N
-    ufoLicenseKey: QVllY0Jtci8vLy8vQUFBQUtJS1lZR2xJQWtJc21xUTQxTG4wd3paOWRyN21vVW5BNW1ad04xWHpEMVIram4vM0U1Z0FqRVhpaWxUT2Rlek5CZzZuZCtzeE1MZHhIRjBrZ1ZoQTV3bzM1MzhrdE1RbUJVYk45VEs3UUlkcGF1T2NDNXBCeWg0Zm5GU2lKTzlJY04wbjMwOTNHalJPZnlzb0pMcjJQV1lIeENYVUNSeGU5aUNOb3RqR2Y0OVhlcDZrWllmUUcvUnZiQ1B5VTU0aUg4RGx6YUkzOFNhK0d1TWJqcWNGa0ZZZ0JaZDNJVEE4TTgrUmlOTTUrTGpXNkNzaDRmMUNnMENJMjdybmhpTlBlUjJuL2FzTjBsYUgyWmhwWDZJQW9lNmtxeGxhZCt3SWFEejA1bzV2RmpBelN6dTJ1cEpqdE5mTzVZc3hoNmF3SEwvYit4dWhUMGtBNElKekxkcFBrdjdubGI1ckZnRXZLMkpVSTVsYWNaYUs=
+    ufoLicenseKey: QVZqek9oei8vLy8vQUFBQUtQOTEzczFzR0V4RG5TVXhrVlRsTEZlTVFxK2ZVQzF1Vm5jL3Naa2dRcWhuMks1NFJDOVIzYmpMQ000dnBqaEg4V0xMNy9UcVFTR1RJWS9kRmFONGgvWVlDejVMWnI0NFdSK0pINmZqMDRsQUpOWFJGTXBXRGFxdXJkT2p6QmxINUdiUkNyVlprV2krazRVSDVQajUxRmJ4dFhrWTNYZEFDVXNQQTlDNXFiQ0JkREV1QXF6NGRxc0Jvell5eHhqUW1vbUx5Y2R4Nk1iRGhsV1BTVHI1NXo0NDgxbWNGSUI0b1pSRDJDbGFUVGRrV2dlQ3luemJJcldwbzk1Zmg4OXYxNVdnN1dQTkxrRGhPV1VabXUvUktHNUNadkNYQnoxT0Z4L1VVOW90ZVlGdFNKenBSQ1RzNWJ5U1hrdy81R2ZLZlI0UkovdmwrSmZRM1l2SnFGWHpUeHN1TkkwKy83U1RYaDRoeEp5N2Uxckw=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -24,15 +24,14 @@ MonoBehaviour:
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 10.10.2
-    eulaAcceptedVersions: '{"Values":["","0.0","10.10"]}'
+    eulaAcceptedVersions: '{"Values":["10.10"]}'
   database:
     disableModelExtraction: 0
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 1ce7eb78425fb1540838bc9d5d95857a, type: 3}
   videoBackground:
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
-      type: 3}
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a, type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
