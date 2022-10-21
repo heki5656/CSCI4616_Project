@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="glovePrints" size="0.100000 0.074972" />
+    <ImageTarget name="bloodyKnife" size="0.100000 0.066509" />
+    <ImageTarget name="passiveStain" size="0.100000 0.067296" />
+    <ImageTarget name="transferStain1" size="0.100000 0.079851" />
+    <ImageTarget name="transferStain2" size="0.100000 0.083417" />
+    <ImageTarget name="projectedStain" size="0.100000 0.063976" />
+    <ImageTarget name="crime-passive" size="0.100000 0.075061" />
+    <ImageTarget name="familystockphoto" size="0.100000 0.073328" />
+  </Tracking>
+</QCARConfig>
