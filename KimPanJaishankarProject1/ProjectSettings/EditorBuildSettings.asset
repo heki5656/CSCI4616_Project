@@ -5,11 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/deningRoomScene.unity
-    guid: ca5377afeaca6e12ab231b71cb73a18a
   - enabled: 0
-    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scenes/HelloCardboard.unity
-    guid: 145a2a45d7bc746b19cb68410368bf96
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/KimPanJaishankarProject1Scene.unity
+    guid: 9e5746a981281af49b950b84d9cf31a1
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 08306b7fa5321324b9158b5ba1b95fa0, type: 2}

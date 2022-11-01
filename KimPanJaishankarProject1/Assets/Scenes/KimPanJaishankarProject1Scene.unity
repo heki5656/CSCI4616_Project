@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3475,7 +3475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eb42476650e94136b0977807d2f3ce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasText1: {fileID: 1453658478}
+  targetColor: {r: 0, g: 0, b: 0, a: 0}
+  materialToChange: {fileID: 0}
 --- !u!102 &1453658481
 TextMesh:
   serializedVersion: 3
@@ -8571,6 +8572,7 @@ GameObject:
   - component: {fileID: 5415228219528869153}
   - component: {fileID: 1962836835012880909}
   - component: {fileID: 1012168787}
+  - component: {fileID: 8003161070779423542}
   m_Layer: 0
   m_Name: curveBackChair.003
   m_TagString: Untagged
@@ -8578,6 +8580,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8003161070779423542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8003161070779423541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7517a8324d07441a1a882399f66186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8022897190771363912
 Transform:
   m_ObjectHideFlags: 0
