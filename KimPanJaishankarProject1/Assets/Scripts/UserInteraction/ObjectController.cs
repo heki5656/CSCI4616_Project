@@ -27,12 +27,16 @@ public class ObjectController : MonoBehaviour
     /// <summary>
     /// The material to use when this object is inactive (not being gazed at).
     /// </summary>
-    public Material InactiveMaterial;
+    //public Material InactiveMaterial;
 
     /// <summary>
     /// The material to use when this object is active (gazed at).
     /// </summary>
-    public Material GazedAtMaterial;
+    //public Material GazedAtMaterial;
+
+    public GameObject inactiveText;
+    public GameObject gazedAtText;
+    
 
     // The objects are about 1 meter in radius, so the min/max target distance are
     // set so that the objects are always within the room (which is about 5 meters
@@ -58,7 +62,7 @@ public class ObjectController : MonoBehaviour
     /// <summary>
     /// Teleports this instance randomly when triggered by a pointer click.
     /// </summary>
-    public void TeleportRandomly()
+    /*public void TeleportRandomly()
     {
         // Picks a random sibling, activates it and deactivates itself.
         int sibIdx = transform.GetSiblingIndex();
@@ -79,14 +83,14 @@ public class ObjectController : MonoBehaviour
         randomSib.SetActive(true);
         gameObject.SetActive(false);
         SetMaterial(false);
-    }
+    }*/
 
     /// <summary>
     /// This method is called by the Main Camera when it starts gazing at this GameObject.
     /// </summary>
     public void OnPointerEnter()
     {
-        SetMaterial(true);
+        //SetMaterial(true);
     }
 
     /// <summary>
@@ -94,7 +98,7 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerExit()
     {
-        SetMaterial(false);
+        //SetMaterial(false);
     }
 
     /// <summary>
@@ -103,7 +107,7 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerClick()
     {
-        TeleportRandomly();
+        //TeleportRandomly();
     }
 
     /// <summary>
@@ -113,11 +117,15 @@ public class ObjectController : MonoBehaviour
     /// <param name="gazedAt">
     /// Value `true` if this object is being gazed at, `false` otherwise.
     /// </param>
-    private void SetMaterial(bool gazedAt)
+    private void TextAppear(bool gazedAt)
+    {
+
+    }
+    /*private void SetMaterial(bool gazedAt)
     {
         if (InactiveMaterial != null && GazedAtMaterial != null)
         {
             _myRenderer.material = gazedAt ? GazedAtMaterial : InactiveMaterial;
         }
-    }
+    }*/
 }
