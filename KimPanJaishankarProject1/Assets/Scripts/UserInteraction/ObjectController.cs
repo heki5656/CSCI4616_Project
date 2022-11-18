@@ -58,7 +58,7 @@ public class ObjectController : MonoBehaviour
     /// <summary>
     /// Teleports this instance randomly when triggered by a pointer click.
     /// </summary>
-    public void TeleportRandomly()
+    /*public void TeleportRandomly()
     {
         // Picks a random sibling, activates it and deactivates itself.
         int sibIdx = transform.GetSiblingIndex();
@@ -79,7 +79,7 @@ public class ObjectController : MonoBehaviour
         randomSib.SetActive(true);
         gameObject.SetActive(false);
         SetMaterial(false);
-    }
+    }*/
 
     /// <summary>
     /// This method is called by the Main Camera when it starts gazing at this GameObject.
@@ -103,7 +103,7 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerClick()
     {
-        TeleportRandomly();
+        //TeleportRandomly();
     }
 
     /// <summary>

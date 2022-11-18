@@ -650,8 +650,6 @@ UnityEngine.Quaternion::AngleAxis_Injected
 UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Internal_ToEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
-UnityEngine.Random::RandomRangeInt
-UnityEngine.Random::Range
 UnityEngine.Random::get_value
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
@@ -918,7 +916,6 @@ UnityEngine.TouchScreenKeyboard::set_hideInput
 UnityEngine.TouchScreenKeyboard::set_text
 UnityEngine.TouchScreenKeyboard::get_status
 UnityEngine.Transform::IsChildOf
-UnityEngine.Transform::GetSiblingIndex
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::InverseTransformPoint_Injected
 UnityEngine.Transform::RotateAroundInternal_Injected
