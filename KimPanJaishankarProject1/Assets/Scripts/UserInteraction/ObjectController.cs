@@ -115,9 +115,9 @@ public class ObjectController : MonoBehaviour
     /// </param>
     private void SetMaterial(bool gazedAt)
     {
-        if (InactiveMaterial != null && GazedAtMaterial != null)
-        {
+        // if (InactiveMaterial != null && GazedAtMaterial != null)
+        // {
             _myRenderer.material = gazedAt ? GazedAtMaterial : InactiveMaterial;
-        }
+        // }
     }
 }
