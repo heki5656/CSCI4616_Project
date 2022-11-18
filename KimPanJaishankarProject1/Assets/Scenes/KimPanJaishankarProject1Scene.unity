@@ -578,6 +578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127951037}
+  - component: {fileID: 127951038}
   m_Layer: 0
   m_Name: BloodSplatter
   m_TagString: Untagged
@@ -601,6 +602,20 @@ Transform:
   m_Father: {fileID: 543450652696190906}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &127951038
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127951036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &169089003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,7 +3050,7 @@ MeshRenderer:
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
-  m_LightProbeUsage: 0
+  m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
@@ -3117,9 +3132,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8003161070779423541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67bb5b350b6c3d042a6683f8ec087808, type: 3}
+  m_Script: {fileID: 11500000, guid: 63bf2f00b9fe04ca88ca466f959e2958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InactiveMaterial: {fileID: 2100000, guid: 1e5bece4e10ce4b45b58757ec1017320, type: 2}
+  GazedAtMaterial: {fileID: 2006474266797104612, guid: ffc9b1dee02f93852a89272a2abc86ea, type: 3}
 --- !u!1 &1027364757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,7 +4668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bf2f00b9fe04ca88ca466f959e2958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InactiveMaterial: {fileID: 2100000, guid: 27881d547c7e195faa4c505456ef5e19, type: 2}
+  InactiveMaterial: {fileID: 2100000, guid: 984eb78ad60c7e3cea5a79c18bf1e977, type: 2}
   GazedAtMaterial: {fileID: 2100000, guid: 5a4f9a5bed438cf4fb17835af3933468, type: 2}
 --- !u!64 &1638360804
 MeshCollider:
@@ -4666,7 +4683,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1680048629
 GameObject:
   m_ObjectHideFlags: 0
@@ -10166,6 +10183,7 @@ GameObject:
   - component: {fileID: 5415228219528869153}
   - component: {fileID: 1962836835012880909}
   - component: {fileID: 1012168787}
+  - component: {fileID: 8003161070779423542}
   m_Layer: 0
   m_Name: curveBackChair.003
   m_TagString: Untagged
@@ -10173,6 +10191,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8003161070779423542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8003161070779423541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -973526481148241516, guid: bad3215b87510f398aee9d2d432b853e, type: 3}
 --- !u!4 &8022897190771363912
 Transform:
   m_ObjectHideFlags: 0
