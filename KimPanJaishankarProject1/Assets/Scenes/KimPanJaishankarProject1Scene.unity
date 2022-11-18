@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311915, g: 0.3807396, b: 0.35872662, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3100,6 +3100,7 @@ GameObject:
   - component: {fileID: 936287807}
   - component: {fileID: 1638360799}
   - component: {fileID: 1638360803}
+  - component: {fileID: 1638360804}
   m_Layer: 3
   m_Name: blood5
   m_TagString: Untagged
@@ -4652,6 +4653,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InactiveMaterial: {fileID: 2100000, guid: 27881d547c7e195faa4c505456ef5e19, type: 2}
   GazedAtMaterial: {fileID: 2100000, guid: 5a4f9a5bed438cf4fb17835af3933468, type: 2}
+--- !u!64 &1638360804
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938213631}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1680048629
 GameObject:
   m_ObjectHideFlags: 0
