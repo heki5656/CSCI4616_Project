@@ -88,6 +88,8 @@ struct String_t;
 struct TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3;
 // UnityEngine.TextGenerator
 struct TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC;
+// UnityEngine.TextMesh
+struct TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // UnityEngine.Font/FontTextureRebuildCallback
@@ -2454,6 +2456,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.TextMesh::set_fontSize(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* __this, int32_t ___value0, const RuntimeMethod* method) 
+{
+	typedef void (*TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B_ftn) (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8*, int32_t);
+	static TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TextMesh_set_fontSize_mAB9F7FFC0E4DB759B786F6A9357B18C86015498B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextMesh::set_fontSize(System.Int32)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Single UnityEngine.TextMesh::get_characterSize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextMesh_get_characterSize_mA9495F227772CFEBB2EB64B65166E682DB5E8147 (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* __this, const RuntimeMethod* method) 
+{
+	typedef float (*TextMesh_get_characterSize_mA9495F227772CFEBB2EB64B65166E682DB5E8147_ftn) (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8*);
+	static TextMesh_get_characterSize_mA9495F227772CFEBB2EB64B65166E682DB5E8147_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TextMesh_get_characterSize_mA9495F227772CFEBB2EB64B65166E682DB5E8147_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextMesh::get_characterSize()");
+	float icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+// System.Void UnityEngine.TextMesh::set_characterSize(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_characterSize_mAEAE87C4648EF49409BDA93E5F504356B68D6052 (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8* __this, float ___value0, const RuntimeMethod* method) 
+{
+	typedef void (*TextMesh_set_characterSize_mAEAE87C4648EF49409BDA93E5F504356B68D6052_ftn) (TextMesh_t7E1981C7B03E50D5CA5A3AD5B0D9BB0AB6EE91F8*, float);
+	static TextMesh_set_characterSize_mAEAE87C4648EF49409BDA93E5F504356B68D6052_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TextMesh_set_characterSize_mAEAE87C4648EF49409BDA93E5F504356B68D6052_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextMesh::set_characterSize(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

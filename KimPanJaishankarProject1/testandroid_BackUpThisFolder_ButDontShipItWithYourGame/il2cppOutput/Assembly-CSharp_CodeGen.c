@@ -72,37 +72,55 @@ extern void ObjectController_OnPointerClick_m42836A892DD52FE0C121F5E37231BF19805
 extern void ObjectController_SetMaterial_mF8B3638C2382300F585FCFAE6EC5626AAE5EC772 (void);
 // 0x0000001E System.Void ObjectController::.ctor()
 extern void ObjectController__ctor_mA008C8DFDEF1B6A05926338921FE1FD30BCEA9BC (void);
-// 0x0000001F System.Boolean VrModeController::get__isScreenTouched()
+// 0x0000001F System.Void ShowTextOnGaze::Start()
+extern void ShowTextOnGaze_Start_mA4968CD925DF4D1D9F0A643AEC7BFE0DEAC5FCD5 (void);
+// 0x00000020 System.Void ShowTextOnGaze::OnPointerEnter()
+extern void ShowTextOnGaze_OnPointerEnter_m256353AB0C75ED6C25364DBFD89F64B659CCD259 (void);
+// 0x00000021 System.Void ShowTextOnGaze::OnPointerExit()
+extern void ShowTextOnGaze_OnPointerExit_m3C360A9C2D285EBC074071D7666EA23430676260 (void);
+// 0x00000022 System.Void ShowTextOnGaze::OnPointerClick()
+extern void ShowTextOnGaze_OnPointerClick_m4C31B5FFDF7696989C6990C9D972D099F890E63D (void);
+// 0x00000023 System.Void ShowTextOnGaze::.ctor()
+extern void ShowTextOnGaze__ctor_m78DFC2252440676183EA864FA6E51B453A43EB0B (void);
+// 0x00000024 System.Boolean VrModeController::get__isScreenTouched()
 extern void VrModeController_get__isScreenTouched_mD72F14326F1D19F3AC970FD0ED9D0C5CD5C6CFB5 (void);
-// 0x00000020 System.Boolean VrModeController::get__isVrModeEnabled()
+// 0x00000025 System.Boolean VrModeController::get__isVrModeEnabled()
 extern void VrModeController_get__isVrModeEnabled_m8D8D68536E09FF2DEAD3795AF30A57BA6DF7C95F (void);
-// 0x00000021 System.Void VrModeController::Start()
+// 0x00000026 System.Void VrModeController::Start()
 extern void VrModeController_Start_m10BF77FE8B825D9640800D5DF7EF791A391FA49B (void);
-// 0x00000022 System.Void VrModeController::Update()
+// 0x00000027 System.Void VrModeController::Update()
 extern void VrModeController_Update_m43F984D5BF13F2C545B508D93645C1C3AC9262D5 (void);
-// 0x00000023 System.Void VrModeController::EnterVR()
+// 0x00000028 System.Void VrModeController::EnterVR()
 extern void VrModeController_EnterVR_m5FD79BF38C6AF621AF9992378BC5C3618FDE5EFB (void);
-// 0x00000024 System.Void VrModeController::ExitVR()
+// 0x00000029 System.Void VrModeController::ExitVR()
 extern void VrModeController_ExitVR_m1FF25DFE5B3BC15CEDE5C42F56CC399693867397 (void);
-// 0x00000025 System.Collections.IEnumerator VrModeController::StartXR()
+// 0x0000002A System.Collections.IEnumerator VrModeController::StartXR()
 extern void VrModeController_StartXR_m57D80B4AD6B28A7C4E36052563B6227E824CDDB4 (void);
-// 0x00000026 System.Void VrModeController::StopXR()
+// 0x0000002B System.Void VrModeController::StopXR()
 extern void VrModeController_StopXR_m0338E8D8035C06E1A46F17C16BBC7933EE9CAA3A (void);
-// 0x00000027 System.Void VrModeController::.ctor()
+// 0x0000002C System.Void VrModeController::.ctor()
 extern void VrModeController__ctor_m94505259847FB7C54346D7CF02AD85793393D141 (void);
-// 0x00000028 System.Void VrModeController/<StartXR>d__10::.ctor(System.Int32)
+// 0x0000002D System.Void VrModeController/<StartXR>d__10::.ctor(System.Int32)
 extern void U3CStartXRU3Ed__10__ctor_mDA431E1365B30DA2F64F1E7875CD387F2231E138 (void);
-// 0x00000029 System.Void VrModeController/<StartXR>d__10::System.IDisposable.Dispose()
+// 0x0000002E System.Void VrModeController/<StartXR>d__10::System.IDisposable.Dispose()
 extern void U3CStartXRU3Ed__10_System_IDisposable_Dispose_m3DC1735AA5EC0D61A72803BB3B33B9499A373336 (void);
-// 0x0000002A System.Boolean VrModeController/<StartXR>d__10::MoveNext()
+// 0x0000002F System.Boolean VrModeController/<StartXR>d__10::MoveNext()
 extern void U3CStartXRU3Ed__10_MoveNext_m9A6340456306ACFADD0D458946C82448A862E68B (void);
-// 0x0000002B System.Object VrModeController/<StartXR>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000030 System.Object VrModeController/<StartXR>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartXRU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD0B4CE8CBE980FD132B19F40FF2172502B1D0566 (void);
-// 0x0000002C System.Void VrModeController/<StartXR>d__10::System.Collections.IEnumerator.Reset()
+// 0x00000031 System.Void VrModeController/<StartXR>d__10::System.Collections.IEnumerator.Reset()
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38CFAC11731CDB371647891816288600 (void);
-// 0x0000002D System.Object VrModeController/<StartXR>d__10::System.Collections.IEnumerator.get_Current()
+// 0x00000032 System.Object VrModeController/<StartXR>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F (void);
-static Il2CppMethodPointer s_methodPointers[45] = 
+// 0x00000033 System.Void TextMeshSharpener::Start()
+extern void TextMeshSharpener_Start_m4D9405C23B5AAEC9ED80A34175A545EB0E3C0D55 (void);
+// 0x00000034 System.Void TextMeshSharpener::Update()
+extern void TextMeshSharpener_Update_m29813C95951508B89831B30355ABB641F79B0CF8 (void);
+// 0x00000035 System.Void TextMeshSharpener::resize()
+extern void TextMeshSharpener_resize_m10C5F27307DF17C91648D53D6877F83C59003E65 (void);
+// 0x00000036 System.Void TextMeshSharpener::.ctor()
+extern void TextMeshSharpener__ctor_mB08CE541A4527FF2035C3521D5CB6DD833F9F35A (void);
+static Il2CppMethodPointer s_methodPointers[54] = 
 {
 	BreakableWindow_Start_m96D4AC4F5DB943824FCA74B23F20D8667FE19FA7,
 	BreakableWindow_bakeVertices_m8844D308B1398B0103EA5473D481DF07DC414C3A,
@@ -134,6 +152,11 @@ static Il2CppMethodPointer s_methodPointers[45] =
 	ObjectController_OnPointerClick_m42836A892DD52FE0C121F5E37231BF198052017E,
 	ObjectController_SetMaterial_mF8B3638C2382300F585FCFAE6EC5626AAE5EC772,
 	ObjectController__ctor_mA008C8DFDEF1B6A05926338921FE1FD30BCEA9BC,
+	ShowTextOnGaze_Start_mA4968CD925DF4D1D9F0A643AEC7BFE0DEAC5FCD5,
+	ShowTextOnGaze_OnPointerEnter_m256353AB0C75ED6C25364DBFD89F64B659CCD259,
+	ShowTextOnGaze_OnPointerExit_m3C360A9C2D285EBC074071D7666EA23430676260,
+	ShowTextOnGaze_OnPointerClick_m4C31B5FFDF7696989C6990C9D972D099F890E63D,
+	ShowTextOnGaze__ctor_m78DFC2252440676183EA864FA6E51B453A43EB0B,
 	VrModeController_get__isScreenTouched_mD72F14326F1D19F3AC970FD0ED9D0C5CD5C6CFB5,
 	VrModeController_get__isVrModeEnabled_m8D8D68536E09FF2DEAD3795AF30A57BA6DF7C95F,
 	VrModeController_Start_m10BF77FE8B825D9640800D5DF7EF791A391FA49B,
@@ -149,8 +172,12 @@ static Il2CppMethodPointer s_methodPointers[45] =
 	U3CStartXRU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD0B4CE8CBE980FD132B19F40FF2172502B1D0566,
 	U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38CFAC11731CDB371647891816288600,
 	U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F,
+	TextMeshSharpener_Start_m4D9405C23B5AAEC9ED80A34175A545EB0E3C0D55,
+	TextMeshSharpener_Update_m29813C95951508B89831B30355ABB641F79B0CF8,
+	TextMeshSharpener_resize_m10C5F27307DF17C91648D53D6877F83C59003E65,
+	TextMeshSharpener__ctor_mB08CE541A4527FF2035C3521D5CB6DD833F9F35A,
 };
-static const int32_t s_InvokerIndices[45] = 
+static const int32_t s_InvokerIndices[54] = 
 {
 	3646,
 	2891,
@@ -182,6 +209,11 @@ static const int32_t s_InvokerIndices[45] =
 	3646,
 	2891,
 	3646,
+	3646,
+	3646,
+	3646,
+	3646,
+	3646,
 	3490,
 	3490,
 	3646,
@@ -197,12 +229,16 @@ static const int32_t s_InvokerIndices[45] =
 	3552,
 	3646,
 	3552,
+	3646,
+	3646,
+	3646,
+	3646,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	45,
+	54,
 	s_methodPointers,
 	0,
 	NULL,

@@ -32,7 +32,7 @@ public class ShowTextOnGaze : MonoBehaviour
     /// </summary>
     public void Start()
     {
-        _startingPosition = transform.parent.localPosition;
+        //_startingPosition = transform.parent.localPosition;
         _myRenderer = GetComponent<Renderer>();
         // SetMaterial(false);
         transform.GetChild(0).gameObject.SetActive(false);

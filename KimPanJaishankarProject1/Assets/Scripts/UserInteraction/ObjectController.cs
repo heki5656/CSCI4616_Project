@@ -43,14 +43,14 @@ public class ObjectController : MonoBehaviour
     private const float _maxObjectHeight = 3.5f;
 
     private Renderer _myRenderer;
-    private Vector3 _startingPosition;
+    //private Vector3 _startingPosition;
 
     /// <summary>
     /// Start is called before the first frame update.
     /// </summary>
     public void Start()
     {
-        _startingPosition = transform.parent.localPosition;
+        //_startingPosition = transform.parent.localPosition;
         _myRenderer = GetComponent<Renderer>();
         SetMaterial(false);
     }
