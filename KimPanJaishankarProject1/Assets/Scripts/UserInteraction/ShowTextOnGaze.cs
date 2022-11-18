@@ -32,10 +32,10 @@ public class ShowTextOnGaze : MonoBehaviour
     /// </summary>
     public void Start()
     {
-        _startingPosition = transform.parent.localPosition;
         _myRenderer = GetComponent<Renderer>();
         // SetMaterial(false);
-        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(false);
     }
 
     /// <summary>
@@ -44,8 +44,9 @@ public class ShowTextOnGaze : MonoBehaviour
     public void OnPointerEnter()
     {
         // SetMaterial(true);
-        transform.GetChild(0).gameObject.SetActive(true);
-    }
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).gameObject.SetActive(true);    
+        }
 
     /// <summary>
     /// This method is called by the Main Camera when it stops gazing at this GameObject.
@@ -53,7 +54,8 @@ public class ShowTextOnGaze : MonoBehaviour
     public void OnPointerExit()
     {
         // SetMaterial(false);
-        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(0).gameObject.SetActive(true);
+        transform.GetChild(1).gameObject.SetActive(false);    
     }
 
     /// <summary>
