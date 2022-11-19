@@ -22,7 +22,7 @@ The following numbered sections describe our techniques more in depth and also i
 
     _User #2:_
     
-    <insQuestion:</ins> What are your initial thoughts when walking through our project? What do you like about our project? What are some things that we can improve on?
+    Question: What are your initial thoughts when walking through our project? What do you like about our project? What are some things that we can improve on?
 
     Feedback from Luke’s roommate (Kyle): “Overall, I like the project. I think that it’d be useful in the real world. I think it's a good idea that the project is accessible using a phone because then multiple users can use it at the same time without the use of many expensive VR headsets. I think that the scene could be more immersive. Right now the room seems very closed off. Maybe adding a window or two could be good. Also I like the text popup but I think that it should be included on other objects as well.”
 
