@@ -12,7 +12,7 @@ The following numbered sections describe our techniques more in depth and also i
 
 4. (User Experience Comparision) 
 
-    User #1:
+    _User #1:_
 
     Question: What do you like about our project as it is and what can we change - in general and specifics? For example, we have a technique for allowing users to navigate through the simulation and we are doing this by making certain objects glow. Does this approach seem intuitive and/or how can we improve it? 
 
@@ -20,7 +20,7 @@ The following numbered sections describe our techniques more in depth and also i
 
     Reflection: Based on my roommate’s feedback, I think one way to enhance the project would be by changing the glow effect to be a little less intense as there is currently a bright square around the object in question in addition to the glow. This makes the object stand out a lot which can be toned down a little. We plan to test out other approaches to making the object glow more naturally. Finally, in order to add a little more interactivity in addition to our current user interaction, one idea we had which we would like to implement would be by making a window glass shatter on tap or gaze. This will offer another component in making the user feel a little more immersed in the scene and get a better understanding of the crime. 
 
-    User #2:
+    _User #2:_
     
     Question: What are your initial thoughts when walking through our project? What do you like about our project? What are some things that we can improve on?
 
