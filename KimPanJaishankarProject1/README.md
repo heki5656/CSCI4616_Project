@@ -14,7 +14,7 @@ Goal we are trying to achieve: We are attempting to duplicate a crime scene base
 
     - This experience we've created aims to allow users to interact with typical objects of interest in a crime scene by simply viewing/gazing and eventually tapping the object to see it's contents. Users would hopefully be able to find their way around the scene with our navigation and selection techniques through popup displays, camera gaze, and glow effects. 
 
-The following numbered sections describe our techniques more in depth and also includes our user experience comparison.
+The following sections describe our techniques more in depth and also includes our user experience comparison.
 
 - (Navigation) Our first navigation in our project is a popup display that is in the form of an exclamation mark above the fallen chair. We wanted to make the fallen chair one of the main focuses, and to redirect the user to look at it we had this since it is just hovering and seemingly out of place. As a result, they would get interested to look at the chair below the exclamation point. 
 
