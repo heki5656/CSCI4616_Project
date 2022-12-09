@@ -149,10 +149,10 @@ public class BreakableWindow : MonoBehaviour {
         MeshFilter mf = obj.AddComponent<MeshFilter>();
         mf.mesh = m;
         
-        MeshCollider col = obj.AddComponent<MeshCollider>();
-        col.inflateMesh = true;
-        col.convex = true;
-        if (destroyPhysicsTime > 0 && destroyColliderWithPhysics) Destroy(col, destroyPhysicsTime);
+        // MeshCollider col = obj.AddComponent<MeshCollider>();
+        // col.inflateMesh = true;
+        // col.convex = true;
+        // if (destroyPhysicsTime > 0 && destroyColliderWithPhysics) Destroy(col, destroyPhysicsTime);
         
         Rigidbody rigid = obj.AddComponent<Rigidbody>();
         rigid.centerOfMass = (v[0] + v[1] + v[2]) / 3f;
@@ -236,6 +236,7 @@ public class BreakableWindow : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
+        // System.Console.WriteLine(col);
         if (useCollision == true)
         {
             if (health > 0)
