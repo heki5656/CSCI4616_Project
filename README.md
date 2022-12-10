@@ -8,3 +8,4 @@ https://assetstore.unity.com/packages/3d/props/weapons/ammu-pack-67810
 https://assetstore.unity.com/packages/3d/props/interior/clock-4250
 https://assetstore.unity.com/packages/3d/props/furniture/old-wooden-cabinet-106249
 https://assetstore.unity.com/packages/2d/textures-materials/wood/wooden-floor-materials-150564
+https://assetstore.unity.com/packages/tools/particles-effects/breakable-windows-110383
